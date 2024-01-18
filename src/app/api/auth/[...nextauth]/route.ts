@@ -4,7 +4,7 @@ import NextAuth, { AuthOptions, getServerSession } from "next-auth"
 import GithubProvider from "next-auth/providers/github"
 import GoogleProvider from "next-auth/providers/google"
 
-
+ // @ts-ignore
 const authOptions:AuthOptions ={
   adapter:PrismaAdapter(prisma) as any,
     providers:[
