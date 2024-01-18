@@ -35,7 +35,7 @@ const Navbar = () => {
             Sky-News
           </h2>
           <p className="text-sm">
-            Exploring Tomorrow's Innovations, <br />
+            Exploring Tomorrow&apos;s Innovations, <br />
             On Byte at a Time.
           </p>
         </Link>

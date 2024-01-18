@@ -130,7 +130,7 @@ const CreatePostForm = () => {
         ></textarea>
         {links &&
           links.map((link, i) => (
-            <div className="flex items-center gap-4">
+            <div key={i} className="flex items-center gap-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
